@@ -1,7 +1,6 @@
 import sagemaker
 import boto3
 from sagemaker.huggingface import HuggingFaceModel
-
 try:
 	role = sagemaker.get_execution_role()
 except ValueError:
